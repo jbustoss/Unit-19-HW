@@ -28,10 +28,20 @@ p {
     background-color: black;
     color: #70C4FB;
     height: 50px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
 }
+.btn1:hover {
+    background-color:  white;
+    color:  #8762F3;
+  }
 .button {
     padding-top: 30px;
     text-align: center;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
 }
 .card {
     display: inline-block;
@@ -78,12 +88,26 @@ h5 {
 .btn2 {
     background-color: #8762F3;
     padding-top: 20px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.btn2:hover {
+    background-color:  black;
+    color:  #8762F3;
 }
 p.card-text {
     padding-bottom: 20px;
 }
 .btn3 {
     background-color:#70C4FB;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.btn3:hover {
+    background-color:  black;
+    color:  #8762F3;
 }
 .jumbotron2 {
     background-image: url(../images/footerbackground.jpg);
